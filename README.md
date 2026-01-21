@@ -29,8 +29,40 @@ DesignPatternsWorkshop/
 ├── 📂 Singleton_Problem/      # Problemas de estado global
 ├── ... (y más)
 └── Program.cs                 # Punto de entrada para ejecutar las demos
+└── Program.cs                 # Punto de entrada para ejecutar las demos
 
+### 🛠️ Catálogo de Patrones
 
-🛠️ Catálogo de Patrones🏗️ Patrones Creacionales (Creational)Se centran en cómo se instancian los objetos para desacoplar el sistema de su implementación.PatrónProblemática (Anti-Pattern)EstadoSingletonInstancias múltiples de recursos compartidos (DB).✅ ListoFactory MethodUso excesivo de switch/if para crear objetos.✅ ListoAbstract FactoryMezcla incoherente de familias de objetos (UI Windows/Mac).✅ ListoBuilderConstructores "telescópicos" con demasiados parámetros nulos.🚧 WIPPrototypeCreación costosa de objetos repetitivos (Performance).🚧 WIP🌉 Patrones Estructurales (Structural)Se centran en cómo componer clases y objetos para formar estructuras mayores.PatrónProblemática (Anti-Pattern)EstadoAdapterIncompatibilidad de interfaces con sistemas Legacy.🚧 WIPBridgeExplosión de clases por herencia multidimensional.🚧 WIPCompositeTratamiento desigual entre objetos simples y grupos.🚧 WIPDecoratorHerencia rígida para añadir funcionalidades extras.🚧 WIPFacadeComplejidad alta para el cliente al orquestar subsistemas.🚧 WIPProxyAcceso directo a objetos pesados sin control (Lazy/Cache).🚧 WIP📡 Patrones de Comportamiento (Behavioral)Se centran en la asignación de responsabilidades y comunicación entre objetos.PatrónProblemática (Anti-Pattern)EstadoChain of Resp.Anidación profunda de IFs para validaciones.⏳ PendienteCommandLógica de negocio acoplada a la UI (Botones).⏳ PendienteObserverAcoplamiento fuerte al notificar cambios a otros servicios.⏳ PendienteStateMáquinas de estado gestionadas con condicionales complejos.⏳ PendienteStrategyAlgoritmos intercambiables hardcodeados dentro de la clase.⏳ PendienteTemplate MethodDuplicación de código en algoritmos con pasos similares.⏳ Pendiente
+**Patrones Creacionales (Creational)**
+
+Se centran en cómo se instancian los objetos para desacoplar el sistema de su implementación.
+
+- **Singleton** — Problemática: Instancias múltiples de recursos compartidos (DB). **Estado:** ✅ Listo
+- **Factory Method** — Problemática: Uso excesivo de `switch`/`if` para crear objetos. **Estado:** ✅ Listo
+- **Abstract Factory** — Problemática: Mezcla incoherente de familias de objetos (p. ej. UI Windows/Mac). **Estado:** ✅ Listo
+- **Builder** — Problemática: Constructores "telescópicos" con demasiados parámetros y valores nulos. **Estado:** 🚧 WIP
+- **Prototype** — Problemática: Creación costosa de objetos repetitivos (impacto en rendimiento). **Estado:** 🚧 WIP
+
+**Patrones Estructurales (Structural)**
+
+Se centran en cómo componer clases y objetos para formar estructuras mayores.
+
+- **Adapter** — Problemática: Incompatibilidad de interfaces con sistemas Legacy. **Estado:** 🚧 WIP
+- **Bridge** — Problemática: Explosión de clases por combinar múltiples dimensiones en herencia. **Estado:** 🚧 WIP
+- **Composite** — Problemática: Tratamiento desigual entre objetos simples y grupos. **Estado:** 🚧 WIP
+- **Decorator** — Problemática: Herencia rígida para añadir funcionalidades extras (explosión de clases). **Estado:** 🚧 WIP
+- **Facade** — Problemática: Complejidad alta para el cliente al orquestar subsistemas. **Estado:** 🚧 WIP
+- **Proxy** — Problemática: Acceso directo a objetos pesados sin control (sin caché/lazy). **Estado:** 🚧 WIP
+
+**Patrones de Comportamiento (Behavioral)**
+
+Se centran en la asignación de responsabilidades y comunicación entre objetos.
+
+- **Chain of Responsibility** — Problemática: Anidación profunda de `if` para validaciones. **Estado:** ⏳ Pendiente
+- **Command** — Problemática: Lógica de negocio acoplada a la UI (acciones/ botones). **Estado:** ⏳ Pendiente
+- **Observer** — Problemática: Acoplamiento fuerte al notificar cambios a otros servicios. **Estado:** ⏳ Pendiente
+- **State** — Problemática: Máquinas de estado gestionadas con condicionales complejos. **Estado:** ⏳ Pendiente
+- **Strategy** — Problemática: Algoritmos intercambiables hardcodeados dentro de la clase. **Estado:** ⏳ Pendiente
+- **Template Method** — Problemática: Duplicación de código en algoritmos con pasos similares. **Estado:** ⏳ Pendiente
 
 ```
